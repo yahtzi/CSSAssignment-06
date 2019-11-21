@@ -16,9 +16,13 @@
 	font-family: 'VT323', monospace;
 	font-family: 'Assistant', sans-serif;
 	*/
+	
+a:link {
+	text-decoration: none;
+}
 
-a:link, a:visited {
-	color: #18e314;
+	a:link, a:visited {
+	color: #19b542;
 }
 
 a:focus, a:hover {
@@ -45,15 +49,18 @@ h1, h2, h3 {
 }
 
 h1 {
-	font-size: 3em;
+	font-size: 5em;
+	text-shadow: 3px 3px #19b542;
 }
 
 h2 {
 	font-size: 2em;
+	text-shadow: 1px 1px #19b542;
 }
 
 h3 {
 	font-size: 2em;	
+	text-shadow: 1px 1px #19b542;
 }
 
 header {
