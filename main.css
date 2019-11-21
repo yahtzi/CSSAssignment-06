@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,400,600,900|VT323&display=swap');
+
+/*
+	Reset Selector - don't remove this!
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* 
+	You can modify everything after this point.
+
+	FONTS
+	font-family: 'VT323', monospace;
+	font-family: 'Montserrat', sans-serif;		BODY
+*/
+
+a:link, a:visited {
+	color: blue;
+}
+
+a:focus, a:hover {
+	background-color: #ddddff;
+	border-radius: 5px;
+	text-decoration: underline;
+	transition-duration: 0.2s;
+	transition-property: background;
+}
+
+body {
+	font-size: 18px;
+}
+
+code {
+	
+}
+
+h1, h2, h3 {
+	font-size: 2.5em;
+	text-align: center;
+	font-family: 'VT323', monospace;
+	margin-bottom: 15px; 
+}
+
+h1 {
+
+}
+
+h2 {
+
+}
+
+h3 {
+	
+}
+
+header {
+	
+}
+
+main {
+	margin: ;
+}
+
+p {
+	margin-bottom: 20px;
+}
+
+#intro {
+
+}
+
+#how-does-it-work, #influence, #joke {
+
+}
