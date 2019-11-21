@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:100,400,600,900|VT323&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Assistant:400,800|VT323&display=swap');
 
 /*
 	Reset Selector - don't remove this!
@@ -14,11 +14,11 @@
 
 	FONTS
 	font-family: 'VT323', monospace;
-	font-family: 'Montserrat', sans-serif;		BODY
-*/
+	font-family: 'Assistant', sans-serif;
+	*/
 
 a:link, a:visited {
-	color: blue;
+	color: #18e314;
 }
 
 a:focus, a:hover {
@@ -31,6 +31,7 @@ a:focus, a:hover {
 
 body {
 	font-size: 18px;
+	font-family: 'Assistant', sans-serif;
 }
 
 code {
@@ -38,34 +39,34 @@ code {
 }
 
 h1, h2, h3 {
-	font-size: 2.5em;
-	text-align: center;
 	font-family: 'VT323', monospace;
-	margin-bottom: 15px; 
+	text-align: center;
+	margin-bottom: .5em; 
 }
 
 h1 {
-
+	font-size: 3em;
 }
 
 h2 {
-
+	font-size: 2em;
 }
 
 h3 {
-	
+	font-size: 2em;	
 }
 
 header {
-	
+	margin-top: 3em;
 }
 
 main {
-	margin: ;
+	margin: 0 25%;
 }
 
 p {
-	margin-bottom: 20px;
+	margin-bottom: 1em;
+	line-height: 135%;
 }
 
 #intro {
